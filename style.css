@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Georgia;
-    src: url(fonts/georgiai.ttf);
+    src: url(fonts/georgia.ttf);
 }
 
 * {
@@ -13,9 +13,6 @@
     
 }
 
-body {
-    
-}
 
 ul {
     list-style: none;
@@ -24,6 +21,10 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+img {
+    height: 100%;
 }
 
 :root {
@@ -37,13 +38,16 @@ a {
 }
 
 /*Header*/
-#header {
-    width: 100%;
-    padding: 2rem;
+
+#myHeader {
     position: absolute;
+    width: 100%;
+    padding: 2rem 7vw;
     display: flex;
-    justify-content: space-around;
-    align-items: center;    
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;   
+     
 }
 
 .button-header {
@@ -54,6 +58,7 @@ a {
     font-size: 1.5rem;
     padding: 1rem 2rem;
     border-radius: 10px;
+
     
 }
 
@@ -63,6 +68,30 @@ a {
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+.sticky {
+
+    
+    background-color: var(--verde-principal);
+    opacity: 0.9;
+    transform: rotateY(1);
+    top: 0;
+    box-shadow: 1px 10px 8px rgba(0, 0, 0, 0.089);
+    border-radius: 0px 0px 20px 20px;
+    transition: .5s;
+
+}
+
+.sticky > .button-header {
+    font-size: 1.3rem;
+    transition: .5s;
+}
+
+.sticky > .logo {
+    height: 5rem;
+    transition: .5s;
+}
+
 
 
 
@@ -114,17 +143,27 @@ iframe {
     background-color: white;
     color: var(--verde-principal);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5rem;
-    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    padding: 1rem 12rem;
     border-radius: 10px;
     margin-bottom: 2rem;
+    animation: button-animate 1.5s linear infinite;
     
 }
 
-.button-cover:hover {
 
-    transform: scale(1.1);
-    transition: 0.5s;
-    
+#price {
+    height: 100vw;
 }
 
+@keyframes button-animate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
