@@ -14,7 +14,7 @@
 }
 
 body {
-    max-width: 100%;
+    
 }
 
 ul {
@@ -38,13 +38,12 @@ a {
 
 /*Header*/
 #header {
-    width: 100vw;
+    width: 100%;
     padding: 2rem;
     position: absolute;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .button-header {
@@ -71,9 +70,7 @@ a {
 
 
 
-#cover {
-    width: 100vw;
-    
+#cover {   
     background-image: url(img/Prancheta\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
