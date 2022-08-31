@@ -56,6 +56,7 @@ img {
     color: var(--verde-principal);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
+    text-transform: uppercase;
     padding: 1rem 2rem;
     border-radius: 10px;
 
@@ -129,6 +130,9 @@ img {
 #cover > iframe {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
     border-radius: 10px;
+    width: 880px;
+    height: 500px;
+    
 }
 
 
@@ -139,6 +143,7 @@ img {
     background-color: white;
     color: var(--verde-principal);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
     font-size: 2rem;
     min-width: 500px;
     padding: 1% 12%;
@@ -154,6 +159,22 @@ img {
     height: 100vw;
 }
 
+
+
+[data-anime] {
+    opacity: 0;
+    transition: 2s;
+}
+
+[data-anime='down'] {
+    transform: translate3d(0px, -50px, 0px);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
 @keyframes button-animate {
     0% {
         transform: scale(1);
@@ -163,43 +184,5 @@ img {
     }
     100%{
         transform: scale(1);
-    }
-}
-
-@media (max-width:480px){
-    .button-header {
-        display: none;
-    }
-
-    #myHeader {
-        justify-content: center;
-        height: 20vw; 
-        padding: 4rem;
-    }    
-
-    #cover {
-       row-gap: 2rem;
-    }
-    #cover h1{
-        margin-top: px;
-        font-size: 8vw;
-        text-align: center;
-    }
-
-    #cover p {
-        font-size: 4vw;
-    }
-    iframe {
-        
-        height: 30%;
-        width: 100%;
-    
-    }
-
-    .button-cover {
-        font-size: 5vw;
-        padding-top:8vw;
-        padding-bottom: 8vw;
-        min-width: 0;
     }
 }
