@@ -1,5 +1,7 @@
 /*reset*/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @font-face {
     font-family: Georgia;
     src: url(fonts/georgia.ttf);
@@ -9,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    
     
 }
 
@@ -46,7 +48,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;  
+    z-index: 100; 
+    color: white; 
      
 }
 
@@ -110,6 +113,7 @@ img {
     justify-content: center;
     align-items: center;
     row-gap: 3rem;
+    color: white;
     
 }
 
@@ -155,11 +159,51 @@ img {
 }
 
 
-#price {
-    height: 100vw;
+/*MAIN ABOUT*/
+
+#about {
+    color: black;
+    display: flex;
+}
+
+#about-text {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    margin-bottom: 3rem;
+    
+}
+
+#about-text h1{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: var(--verde-principal);
+    font-weight: 100;
+    
+}
+
+#about-text p {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    color: rgb(71, 71, 71);
+}
+
+#about-image {
+    border-radius: 0px 50px 00px 50px;
+    padding: 1rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.226);   
+    
 }
 
 
+
+
+
+
+
+/*animations*/
 
 [data-anime] {
     opacity: 0;
