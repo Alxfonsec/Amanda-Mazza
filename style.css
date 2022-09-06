@@ -254,6 +254,7 @@ img {
     color: white;
     text-align: center;
     padding: 3rem;
+    position: relative;
 }
 
 #questions h2 {
@@ -302,6 +303,14 @@ details[open] summary::after {
     text-align: justify;
 }
 
+#questions img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 60%;
+
+}
+
 
 /*TESTMONIALS*/
 
@@ -317,6 +326,33 @@ details[open] summary::after {
     font-size: 3rem;
 }
 
+
+/*CTA*/
+
+#cta {
+    background-image: url(img/Prancheta\ 3.jpg);
+    background-size: cover;
+    padding: 3rem;
+    text-align: right;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+#cta h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    max-width: 50%;
+}
+
+#cta p {
+    max-width: 60%;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
 
 
 
