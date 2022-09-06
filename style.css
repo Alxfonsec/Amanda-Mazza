@@ -119,7 +119,9 @@ img {
 
 #cover > h1 {
     margin-top: 12rem;
-    font-size: 4rem;
+    max-width: 70%;
+    font-size: 2rem;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
 }
@@ -164,6 +166,7 @@ img {
 #about {
     color: black;
     display: flex;
+    align-items: center;
 }
 
 #about-text {
@@ -174,7 +177,7 @@ img {
     
 }
 
-#about-text h1{
+#about-text h2{
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3rem;
@@ -197,7 +200,122 @@ img {
     
 }
 
+/*PROFESSIONAL*/
 
+#professionals {
+
+    background-image: linear-gradient(100deg, var(--verde-principal)20%, rgb(29, 206, 206)80%);
+    color: white;
+    padding: 3rem;
+    text-align: center;
+
+}
+
+#professionals h2{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+
+}
+
+#cards {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.card {
+
+    margin: 2rem;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.233);
+
+}
+
+.card:hover {
+
+    transform: scale(1.2);
+
+}
+
+/*FAQ*/
+
+#questions {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+#questions h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    
+}
+
+#menuFaq {
+    margin: 4rem auto;
+    font-family: 'Montserrat';
+    max-width: 60%;
+    color: white;
+} 
+
+#menuFaq summary {
+    padding: 0.5rem 2rem;
+    margin: 0.5rem;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(71, 71, 71);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ;
+    
+}
+
+summary::after {
+    content: "+";
+    font-size: 2.5rem;
+
+}
+
+details[open] summary::after {
+    content: "-";
+    font-size: 2.5rem;
+}
+
+#menuFaq p {
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: justify;
+}
+
+
+/*TESTMONIALS*/
+
+#testmonials {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: var(--verde-principal);
+    text-align: center;
+    padding: 3rem;    
+}
+
+#testmonials h2 {
+    font-size: 3rem;
+}
 
 
 
