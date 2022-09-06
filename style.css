@@ -307,7 +307,7 @@ details[open] summary::after {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 60%;
+    height: 400px;
 
 }
 
@@ -332,6 +332,9 @@ details[open] summary::after {
 #cta {
     background-image: url(img/Prancheta\ 3.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
     padding: 3rem;
     text-align: right;
     color: white;
@@ -352,6 +355,12 @@ details[open] summary::after {
     max-width: 60%;
     font-family: 'Montserrat';
     font-size: 1.5rem;
+}
+
+/*Footer*/
+
+#footer {
+    height: 100vw;
 }
 
 
