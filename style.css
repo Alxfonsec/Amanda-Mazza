@@ -1,6 +1,7 @@
 /*reset*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @font-face {
     font-family: Georgia;
@@ -27,10 +28,13 @@ a {
 
 img {
     height: 100%;
+    max-width: 100vw;
 }
 
 :root {
     --verde-principal: rgb(18, 164, 163);
+    --verde-principal-transparente: rgba(18, 164, 164, 0.137);
+    --verde-secundario: rgb(11, 176, 82);
     
 }
 
@@ -56,12 +60,14 @@ img {
 .button-header {
 
     background-color: white;
-    color: var(--verde-principal);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--verde-secundario);
+    font-family: 'roboto';
+    font-weight: 900;
     font-size: 1.5rem;
     text-transform: uppercase;
     padding: 1rem 2rem;
     border-radius: 10px;
+    
 
     
 }
@@ -84,7 +90,6 @@ img {
     border-radius: 0px 0px 20px 20px;
     transition: .5s;
     height: 20%;
-
 }
 
 .sticky > .button-header {
@@ -94,11 +99,14 @@ img {
 
 .sticky > .logo {
     transform: scale(0.8);
-    transition: height .5s;
 }
 
 
+/*MAIN*/
 
+section {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+}
 
 /*MAIN COVER*/
 
@@ -134,21 +142,17 @@ img {
 }
 
 #cover > iframe {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
     border-radius: 10px;
-    width: 880px;
-    height: 500px;
-    
 }
-
 
 
 
 .button-cover {
 
     background-color: white;
-    color: var(--verde-principal);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--verde-secundario);
+    font-family: 'roboto';
+    font-weight: 900;
     text-transform: uppercase;
     font-size: 2rem;
     min-width: 500px;
@@ -161,12 +165,89 @@ img {
 }
 
 
+
+
+/*Price*/
+
+#price {
+    padding: 3rem;
+    background-image: linear-gradient(80deg, rgb(250, 90, 32), rgb(241, 124, 81));
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+.price-value {
+
+
+    color: white;
+    border: 10px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    max-width: 800px;
+    background-color: ora;
+
+    
+}
+
+.price-value h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 1.5vw;
+    align-self: flex-start;
+}
+
+
+
+.price-value p {
+
+    font-family: 'Impact';
+    font-size: 3vw;
+
+}
+
+.price-value p strong {
+    color: white;
+    font-size: 9vw;
+    font-weight: 100;
+    justify-self: center;
+
+}
+
+.price-value span{
+
+    font-family: 'Montserrat';
+    text-decoration: line-through;
+    font-size: 2vw;
+    align-self: flex-end;    
+    
+}
+
+
+
+#price .price-img1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 60vh;
+    max-height: 450px;
+    transform: rotatey(180deg);
+
+}
 /*MAIN ABOUT*/
 
 #about {
-    color: black;
+    
     display: flex;
     align-items: center;
+    background-image: linear-gradient(100deg, var(--verde-principal)20%, rgb(29, 206, 206)80%);
+    box-shadow: none;
+    padding: 2vw;
 }
 
 #about-text {
@@ -175,6 +256,7 @@ img {
     padding: 4rem;
     margin-bottom: 3rem;
     
+    
 }
 
 #about-text h2{
@@ -182,7 +264,7 @@ img {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3rem;
     margin-bottom: 3rem;
-    color: var(--verde-principal);
+    color: white;
     font-weight: 100;
     
 }
@@ -190,24 +272,26 @@ img {
 #about-text p {
     font-family: 'Montserrat';
     font-size: 1.5rem;
-    color: rgb(71, 71, 71);
+    color: white;
 }
 
 #about-image {
-    border-radius: 0px 50px 00px 50px;
+    border-radius: 0px 50px 0px 50px;
     padding: 1rem;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.226);   
+    border: 2px solid white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.226);  
+    margin-right: 2vw; 
     
 }
 
 /*PROFESSIONAL*/
 
 #professionals {
-
-    background-image: linear-gradient(100deg, var(--verde-principal)20%, rgb(29, 206, 206)80%);
-    color: white;
+    
+    color: var(--verde-principal);
     padding: 3rem;
     text-align: center;
+    box-shadow: none;
 
 }
 
@@ -217,35 +301,75 @@ img {
     font-size: 3rem;
     font-weight: 100;
     margin-bottom: 2rem;
+    
 
 }
 
 #cards {
 
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     
 
 }
 
 .card {
 
-    margin: 2rem;
+    margin: 2%;
     width: 200px;
     height: 300px;
     background-color: white;
     border-radius: 20px;
     transition: 0.5s;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.233);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: .5rem;
 
 }
+
+.card h5 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-family: 'Montserrat';
+    color: white;
+}
+
 
 .card:hover {
 
     transform: scale(1.2);
 
 }
+
+.card1 {
+    background-image: linear-gradient(to top, var(--verde-principal), var(--verde-principal-transparente)), url(img/test-girl1.png);
+}
+.card2 {
+    background-image: linear-gradient(to top, var(--verde-principal), var(--verde-principal-transparente)), url(img/test-girl1.png);
+}
+.card3 {
+    background-image: linear-gradient(to top, var(--verde-principal), var(--verde-principal-transparente)), url(img/test-girl1.png);
+}
+.card4 {
+    background-image: linear-gradient(to top, var(--verde-principal), var(--verde-principal-transparente)), url(img/test-girl1.png);
+}
+.card5 {
+    background-image: linear-gradient(to top, var(--verde-principal), var(--verde-principal-transparente)), url(img/test-girl1.png);
+}
+
+
+
+
+
 
 /*FAQ*/
 
@@ -303,13 +427,7 @@ details[open] summary::after {
     text-align: justify;
 }
 
-#questions img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 400px;
 
-}
 
 
 /*TESTMONIALS*/
@@ -317,14 +435,109 @@ details[open] summary::after {
 #testmonials {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
-    color: var(--verde-principal);
+    color: orangered;
     text-align: center;
-    padding: 3rem;    
+    padding: 3rem;  
+  
 }
 
 #testmonials h2 {
     font-size: 3rem;
+    margin-bottom: 3vw;
 }
+
+.testmonials-first-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+        
+}
+
+.testmonial-first {
+    width: 90vw;
+    margin: 1vw;
+    font-weight: 100;
+    max-width: 600px;
+    margin-bottom: 5vw;
+    
+}
+
+.testmonial-first img{
+
+    border-radius: 50%;
+    max-width: 100vw;
+    max-height: 600px;
+    max-width: 600px;
+    border: 6px solid;
+    margin-bottom: 1vw;
+}
+
+.testmonial-first h3{
+
+    font-size: 2rem;
+    color: orangered;
+    margin-bottom: 1vw;
+}
+
+.testmonial-first p {
+    font-family: 'Montserrat';
+    color: rgb(71, 71, 71);
+    font-weight: 500;
+    margin-bottom: 1vw;
+}
+
+.testmonial-first h4 {
+    text-align: right;
+    color: orangered;
+}
+
+#slider {
+
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-container {
+    margin: auto;
+}
+
+.slider-subcontainer {
+    margin:auto;
+}
+
+
+.slider-img {
+    width: 100%;
+    height: 275px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 20px;
+
+}
+
+.slider-img:hover {
+    transform: scale(1.1);
+}
+
+.img-1 {
+    background-image: url(https://img.freepik.com/fotos-gratis/vista-incrivel-de-uma-falesia-verde-perto-do-mar-no-arquipelago-dos-acores-portugal_181624-48407.jpg?w=900&t=st=1662593342~exp=1662593942~hmac=1e516f5b1fa734b53401cb9f1fbe6b066de402b547315d89a79e3420f8cc789e);
+}
+
+.img-2 {
+    background-image: url(https://img.freepik.com/fotos-gratis/ponte-sobre-o-mar-rodeada-por-coimbra-com-as-luzes-a-reflectir-se-nas-aguas-em-portugal_181624-12781.jpg?w=900&t=st=1662593382~exp=1662593982~hmac=a754ec100f91d4bc4bba6e7605d7ff36bcc4584e00b6e5a1756a7826130669a3);
+}
+.img-3 {
+    background-image: url(https://img.freepik.com/fotos-gratis/ponte-de-madeira-cercada-pelo-mar-e-morros-cobertos-de-verde-sob-um-ceu-azul-no-brasil_181624-16705.jpg?w=900&t=st=1662593392~exp=1662593992~hmac=b717e7eb32c845b2bee6862b4c18c085fabeb858fbfdd000b8a7338631a04340);
+}
+.img-4 {
+    background-image: url(https://img.freepik.com/fotos-gratis/visao-geral-do-museu-bahia-nautico-em-salvdor-brasil-sob-ceu-azul-nublado_181624-19965.jpg?w=900&t=st=1662593404~exp=1662594004~hmac=9024d94e65e5d6a4f4fab155cc91e2d70cbc5b67958d7adaecb63b06b989e3e5);
+}
+
 
 
 /*CTA*/
@@ -360,27 +573,40 @@ details[open] summary::after {
 /*Footer*/
 
 #footer {
-    height: 100vw;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
 }
 
-
+#footer a {
+    font-weight: bolder;
+}
 
 
 /*animations*/
 
 [data-anime] {
     opacity: 0;
-    transition: 2s;
 }
 
 [data-anime='down'] {
     transform: translate3d(0px, -50px, 0px);
+    
 }
+
+[data-anime='rigth'] {
+    transform: translate3d(-50px, 0px, 0px);
+    
+}
+
 
 [data-anime].animate {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }
+
 
 @keyframes button-animate {
     0% {
