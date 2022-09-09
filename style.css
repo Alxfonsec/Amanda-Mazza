@@ -234,8 +234,7 @@ section {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 60vh;
-    max-height: 450px;
+    height: 450px;
     transform: rotatey(180deg);
 
 }
@@ -378,7 +377,6 @@ section {
     color: white;
     text-align: center;
     padding: 3rem;
-    position: relative;
 }
 
 #questions h2 {
@@ -405,9 +403,7 @@ section {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    ;
-    
+    align-items: center;    
 }
 
 summary::after {
@@ -619,3 +615,350 @@ details[open] summary::after {
         transform: scale(1);
     }
 }
+
+
+@media (max-width:1600px){
+    #price .price-img1 {
+        height: 320px;
+    }
+
+}
+
+@media (max-width:1100px){
+    #price .price-img1 {
+        height: 300px;
+    }
+
+    #about-text p {
+        font-size: 1.3rem;
+    }
+
+    #menuFaq summary {
+       font-size: 1.5rem;
+       padding: 1.5vw;
+    }
+    
+    summary::after {
+       
+        font-size: 1.5rem;
+    
+    }
+    
+    details[open] summary::after {
+        font-size: 1.5rem;
+    }
+    
+    #menuFaq p {
+        font-size: 1rem;
+    }
+
+
+}
+
+@media (max-width:1024px){
+
+    #cover {
+        row-gap: 1rem;
+    }
+    
+    
+    iframe {
+
+        
+        width: 600px;
+        height: 337px;
+    }
+
+    .button-cover {
+        min-width: 200px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:930px) {
+
+#cover h1 {
+    font-size: 1.5rem;
+}
+
+
+#price .price-img1 {
+    height: 250px;
+}
+
+.price-value h3 {
+    font-size: 1rem;
+}
+
+#about p {
+    font-size: 1rem;
+}
+
+#about-image {
+    height: 300px;
+}
+
+}
+
+@media (max-width:820px) {
+
+    #myHeader {
+        justify-content: center;
+        
+    }
+    .sticky {
+        height: 15vh;
+    }
+    #myHeader .button-header{
+        display: none;
+        }
+
+    #cover h1 {
+        font-size: 1.5rem;
+    }
+    iframe {
+        width: 500px;
+        height: 282px;
+    }
+
+    .price-value {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    #price {
+        justify-content: flex-end;
+    }
+
+    #price h3 {
+        font-size: 1.1rem;
+    }
+
+    #about {
+        padding: 1rem;
+    }
+
+    #about h2 {
+        font-size: 2.5rem;
+    }
+    #about p {
+
+        font-size: 1.1rem;
+    }
+    
+    #about-text {
+        padding: 1rem;
+    }
+
+
+
+
+    #professionals h2 {
+        font-size: 2.5rem;
+    }
+
+    #questions h2 {
+        font-size: 2.5rem;
+    }
+
+    #menuFaq {
+        max-width: 99vw;
+    }
+
+    #testmonials h2 {
+        font-size: 2.5rem;
+    }
+
+    #cta h2 {
+        font-size: 2.5rem;
+    }
+
+    #cta p {
+        font-size: 1rem;
+    }
+
+    #cta .button-header {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media(max-width:700px) {
+
+    #cover h1 {
+        max-width: 90%;
+    }
+
+    #about p {
+        font-size: .9rem;
+    }
+
+    #cta {
+
+    }
+
+    #cta h2 {
+        font-size: 2rem;
+        max-width: 90%;
+    }
+
+    #cta p{
+        max-width: 90%;
+    }
+}
+
+@media (max-width:610px) {
+
+    #cover h1 {
+        font-size: 1.1rem;
+    }
+
+    iframe {
+        width: 400px;
+        height: 225px;
+    }
+
+    .button-cover {
+        font-size: 1rem;
+    }
+
+
+    #about {
+        justify-content: center;
+    }
+    #about-image {
+        display: none;
+    }
+}
+
+@media (max-width:510px) {
+
+    #price {
+        justify-content: center;
+    }
+
+    .price-value h3 {
+        
+       display: none;
+    }
+    .price-value p {
+        font-size: 5vw;
+    }
+
+
+    .price-value p strong {
+        font-size: 15vw;
+    }
+
+    .price-value span {
+        font-size: 4vw;
+    }
+    #price .price-img1 {
+        display: none;
+    }
+
+
+    #menuFaq summary {
+        font-size: 1rem;
+        padding: 1.5vw;
+        
+
+     }
+     
+     summary::after {
+        
+         font-size: 1.5rem;
+     
+     }
+     
+     details[open] summary::after {
+         font-size: 1.5rem;
+     }
+     
+     #menuFaq p {
+         font-size: 1rem;
+     }
+
+}
+
+@media (max-width:440px){
+    iframe {
+        width: 290px;
+        height: 163px;
+    }
+
+    #about h2 {
+        font-size: 2rem;
+    }
+
+    #professionals h2 {
+        font-size: 2rem;
+    }
+
+    #questions h2 {
+        font-size: 2rem;
+    }
+
+    #menuFaq {
+        max-width: 90%;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #menuFaq summary {
+        font-size: .7rem;
+        width: 70vw;
+
+        
+
+     }
+     
+     summary::after {
+        
+         font-size: .7rem;
+     
+     }
+     
+     details[open] summary::after {
+         font-size: 1.5rem;
+     }
+     
+     #menuFaq p {
+         font-size: .7rem;
+     }
+
+     #testmonials h2 {
+        font-size: 2rem;
+     }
+
+     .testmonial-first img {
+        height: 250px;
+     }
+     .testmonial-first h3 {
+        font-size: 1.5rem;
+     }
+
+     #cta h2 {
+        font-size: 2rem;
+     }
+
+     #cta p {
+        font-size: .9rem;
+     }
+
+     #cta .button-header {
+        font-size: .8rem;
+        text-align: center;
+        padding: 1rem auto;
+        
+     }
+
+     #footer {
+        font-size: .6rem;
+     }
+}
+
