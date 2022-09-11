@@ -1,0 +1,139 @@
+#cta {
+    background-image: url(../img/Prancheta\ 3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 3rem;
+    text-align: right;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+#cta h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    max-width: 50%;
+}
+
+#cta p {
+    max-width: 60%;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
+.button-cta {
+
+    background-color: white;
+    color: var(--verde-secundario);
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 10px; 
+    transition: .5s;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.185);   
+}
+
+.button-cta:hover {
+    transform: scale(1.1);
+}
+
+@media(min-width:320px) and (max-width:480px){
+
+    #cta {
+        padding: 1.5rem;
+    }
+
+    #cta h2 {
+        max-width: 90%;
+        font-size: 1.5rem;
+    }
+
+    #cta p {
+        max-width: 85%;
+        font-size: 1rem;
+    }
+
+    .button-cta {
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media(min-width:481px) and (max-width:768px){
+
+    #cta {
+        padding: 1.5rem;
+    }
+
+    #cta h2 {
+        max-width: 90%;
+        font-size: 2rem;
+    }
+
+    #cta p {
+        max-width: 85%;
+        font-size: 1.2rem;
+    }
+
+    .button-cta {
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
+    
+
+@media(min-width:769px) and (max-width:1024px){
+
+    #cta {
+        padding: 1.5rem;
+    }
+
+    #cta h2 {
+        max-width: 90%;
+        font-size: 2.5rem;
+    }
+
+    #cta p {
+        max-width: 85%;
+        font-size: 1.3rem;
+    }
+
+    .button-cta {
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+    #cta {
+        padding: 1.5rem;
+    }
+
+    #cta h2 {
+        max-width: 80%;
+        font-size: 3rem;
+    }
+
+    #cta p {
+        max-width: 75%;
+        font-size: 1.5rem;
+    }
+
+    .button-cta {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    
+}

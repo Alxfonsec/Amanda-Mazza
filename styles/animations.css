@@ -1,0 +1,32 @@
+[data-anime] {
+    opacity: 0;
+}
+
+[data-anime='down'] {
+    transform: translate3d(0px, -50px, 0px);
+    
+}
+
+[data-anime='rigth'] {
+    transform: translate3d(-50px, 0px, 0px);
+    
+}
+
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+@keyframes button-animate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

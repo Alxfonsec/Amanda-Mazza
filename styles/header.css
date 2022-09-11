@@ -1,0 +1,99 @@
+/*Header*/
+
+#myHeader {
+    position: absolute;
+    width: 100%;
+    padding: 2rem 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+    color: white; 
+     
+}
+
+.button-header {
+
+    background-color: white;
+    color: var(--verde-secundario);
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    
+
+    
+}
+
+.button-header:hover {
+
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.171);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.sticky {
+
+    
+    background-color: var(--verde-principal);
+    opacity: 0.9;
+    transform: rotateY(1);
+    top: 0;
+    box-shadow: 1px 10px 8px rgba(0, 0, 0, 0.089);
+    border-radius: 0px 0px 20px 20px;
+    transition: .5s;
+    height: 20%;
+}
+
+.sticky > .button-header {
+    font-size: 1.3rem;
+    transition: .5s;
+}
+
+.sticky > .logo {
+    transform: scale(0.8);
+}
+
+@media(min-width:320px) and (max-width:480px){
+
+    #myHeader {
+    justify-content: center;
+        align-items: center;
+    }
+
+    .button-header {
+        display: none;
+        
+    }
+    .sticky > .logo {
+        transform: scale(0.6);
+    }
+    .sticky {
+
+        height: 15%;
+    }
+    
+}
+
+@media(min-width:481px) and (max-width:768px){
+
+    #myHeader {
+    justify-content: center;
+        align-items: center;
+    }
+
+    .button-header {
+        display: none;
+        
+    }
+    .sticky > .logo {
+        transform: scale(0.8);
+    }
+    .sticky {
+
+        height: 15%;
+    }
+    
+}

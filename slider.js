@@ -1,5 +1,5 @@
 let slider = tns({
-    container : ".my-slider",
+    container : ".my-slider2",
     "slideBy" : 1,
     "speed" : 1000,
     "nav" : false,
@@ -29,4 +29,23 @@ let slider = tns({
             items:1
         }
     }
+
+})
+
+    let slider2 = tns({
+    container : ".my-slider",
+    items: 3,
+    "slideBy" : 1,
+    gutter: 1000, 
+    "fixedWidth" : true,
+    "viewportMax" : 50,
+    "speed" : 1000,
+    "nav" : false,
+    "mouseDrag" : true,
+    "controls" : false,
+    "autoplay" : true,
+    "autoplayTimeout" : 2500,
+    "autoplayHoverPause" : true,
+    "autoplayButtonOutput" : false,
+    
 })

@@ -1,0 +1,182 @@
+#price {
+    padding: 3rem;
+    background-image: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+.price-value {
+
+
+    color: orangered;
+    border: 10px solid orangered;
+    border-radius: 50px;
+    text-align: center;
+    padding: 3rem;
+    max-width: 800px;
+    
+}
+
+.price-value h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 3vw;
+    align-self: flex-start;
+}
+
+
+
+.price-value p {
+
+    font-family: 'Impact';
+    font-size: 3vw;
+
+}
+
+.price-value p strong {
+    color: orangered;
+    font-size: 9vw;
+    font-weight: 100;
+    justify-self: center;
+
+}
+
+.price-value span{
+
+    font-family: 'Montserrat';
+    text-decoration: line-through;
+    font-size: 2vw;
+    align-self: flex-end;
+    color: rgb(71, 71,71);    
+    
+}
+
+
+
+#price .price-img1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotatey(180deg);
+
+}
+
+@media(min-width:320px) and (max-width:480px){
+
+    #price {
+        padding: 1.5rem;
+    }
+
+    .price-img1 {
+        display: none;
+    }
+
+    .price-value {
+
+        padding: 2rem;
+        border: 5px solid;
+        
+    }
+    
+    .price-value h3 {
+
+        font-size: 1.3rem;
+        
+    }
+    
+    
+    
+    .price-value p {
+
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        
+       
+    }
+    
+    .price-value p strong {
+
+        font-size: 2rem;
+        margin: 0.3rem;
+    }
+    
+    .price-value span{
+    
+        color: rgb(71, 71,71);
+        font-size: 1rem;
+    }
+
+
+    
+}
+
+@media(min-width:481px) and (max-width:768px){
+
+    #price {
+        padding: 1.5rem;
+    }
+
+    .price-img1 {
+        display: none;
+    }
+
+    .price-value {
+
+        padding: 2rem 4rem;
+        border: 6px solid;
+        
+    }
+    
+    .price-value h3 {
+
+        font-size: 2rem;
+        
+    }
+    
+    
+    
+    .price-value p {
+
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        
+       
+    }
+    
+    .price-value p strong {
+
+        font-size: 3rem;
+        margin: 0.3rem;
+    }
+    
+    .price-value span{
+    
+        
+        font-size: 1.2rem;
+
+    }
+}
+
+@media(min-width:769px) and (max-width:1024px){
+
+    #price {
+        padding: 1.5rem;
+    }
+
+
+    .price-value {
+        justify-self: flex-end;
+        padding: 2rem 4rem;
+        border: 10px solid;        
+     }
+    
+
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+
+    
+}

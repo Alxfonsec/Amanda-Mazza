@@ -1,0 +1,39 @@
+#footer {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+#footer a {
+    font-weight: bolder;
+}
+
+@media(min-width:320px) and (max-width:480px){
+
+    #footer {
+        font-size: .6rem;
+    }
+    
+}
+
+@media(min-width:481px) and (max-width:768px){
+
+    #footer {
+        font-size: .6rem;
+    }
+}
+
+@media(min-width:769px) and (max-width:1024px){
+    
+    #footer {
+        font-size: .8rem;
+    }
+    
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+
+    
+}

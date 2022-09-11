@@ -1,0 +1,69 @@
+#professionals {
+    padding: 3rem;
+}
+
+#professionals .swiper {
+
+    width: 85%;
+    height: 300px;
+     
+}
+
+#professionals .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px; 
+ 
+}
+
+#professionals .swiper-slide img {
+
+    border-radius: 20px; 
+}
+
+#professionals .slider-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    background-image: linear-gradient(to top ,orangered, rgba(255, 68, 0, 0.068));
+    padding: 1rem;
+    font-family: 'Montserrat';
+    color: white;
+    border-radius: 20px; 
+}
+
+#professionals .slider-text h5 {
+    font-size: 1.5rem;
+}
+
+
+
+@media(min-width:320px) and (max-width:480px){
+
+    #professionals {
+        padding: 1rem 0rem;
+    }
+
+    #professionals .swiper {
+        height: 250px;
+
+    }
+
+    #professionals .slider-text{
+        width: 250px;
+        border-radius: 20px; 
+    }
+
+    #professionals .swiper-slide img{
+        height: 250px;
+
+    }
+       
+}
+

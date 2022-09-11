@@ -1,0 +1,220 @@
+#questions {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+#questions h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    
+}
+
+#menuFaq {
+    margin: 4rem auto;
+    font-family: 'Montserrat';
+    width: 80%;
+    max-width: 1024px;
+    color: white;
+} 
+
+#menuFaq summary {
+    padding: 0.5rem 2rem;
+    margin: 0.5rem;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(71, 71, 71);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+summary::after {
+    content: "+";
+    font-size: 2.5rem;
+
+}
+
+details[open] summary::after {
+    content: "-";
+    font-size: 2.5rem;
+}
+
+#menuFaq p {
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: justify;
+}
+
+@media(min-width:320px) and (max-width:480px){
+
+    #questions {
+        padding: 0.3rem;
+    }
+
+    #questions h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #menuFaq {
+        margin: 1rem auto;
+
+    } 
+
+    #menuFaq summary {
+        width: 90%;
+        padding: 0.5rem 0.5rem;
+        margin: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    summary::after {
+
+        font-size: 1rem;
+    
+    }
+    
+    details[open] summary::after {
+
+        font-size: 1rem;
+    }
+
+    #menuFaq p {
+        font-size: 0.7rem;
+        padding: 1rem;
+
+    }
+
+
+}
+
+@media(min-width:481px) and (max-width:768px){
+
+    #questions {
+        padding: 1.5rem;
+    }
+
+    #questions h2 {
+        font-size: 2rem;
+    }
+
+    #menuFaq {
+        margin: 2rem auto;
+        max-width: 90%;
+    } 
+
+    #menuFaq summary {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    summary::after {
+
+        font-size: 1.2rem;
+    
+    }
+    
+    details[open] summary::after {
+
+        font-size: 1.2rem;
+    }
+
+    #menuFaq p {
+        font-size: 1.2rem;
+        padding: 1rem;
+
+    }
+
+    
+}
+
+@media(min-width:769px) and (max-width:1024px){
+
+    #questions {
+        padding: 1.5rem;
+    }
+
+    #questions h2 {
+        font-size: 2.5rem;
+    }
+
+    #menuFaq {
+        margin: 2rem auto;
+        max-width: 90%;
+    } 
+
+    #menuFaq summary {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    summary::after {
+
+        font-size: 1.5rem;
+    
+    }
+    
+    details[open] summary::after {
+
+        font-size: 1.5rem;
+    }
+
+    #menuFaq p {
+        font-size: 1.5rem;
+        padding: 1rem;
+
+    }
+
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+
+
+
+    #questions {
+        padding: 1.5rem;
+    }
+
+    #questions h2 {
+        font-size: 3rem;
+    }
+
+    #menuFaq {
+        margin: 2rem auto;
+        max-width: 80%;
+    } 
+
+    #menuFaq summary {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        font-size: 2rem;
+    }
+
+    summary::after {
+
+        font-size: 2rem;
+    
+    }
+    
+    details[open] summary::after {
+
+        font-size: 2rem;
+    }
+
+    #menuFaq p {
+        font-size: 1.5rem;
+        padding: 1rem;
+
+    }
+
+}
+
+
+    
