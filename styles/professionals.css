@@ -2,6 +2,15 @@
     padding: 3rem;
 }
 
+#professionals h2 {
+    padding: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(18, 164, 163);
+    font-weight: 100;
+}
+
 #professionals .swiper {
 
     width: 85%;
@@ -31,7 +40,7 @@
     text-align: center;
     width: 300px;
     height: 100%;
-    background-image: linear-gradient(to top ,orangered, rgba(255, 68, 0, 0.068));
+    background-image: linear-gradient(to top ,rgb(18, 164, 163), rgba(255, 68, 0, 0.068));
     padding: 1rem;
     font-family: 'Montserrat';
     color: white;

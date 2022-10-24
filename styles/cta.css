@@ -1,8 +1,6 @@
 #cta {
-    background-image: url(../img/Prancheta\ 3.jpg);
+    background-image: url(https://lh3.googleusercontent.com/I4Mwbiod4CuZvoS3ILVaUzfyn-ugBr4W6ynpnOTHqVZ4nJKfYdhVViwgkFHPj_KfusWOeS4vyOorakbB--whngWh6jy_O6tGZ8AfZhwxU9GZP3_Dqkvg1mbleS3JFkl55ijvqbxO91AkTCUj-kt4nLjrU0Pcb7mxE-I1eqleW05ykL7rx3vR1k8Ha-FjNmdwfPDD5g88fLBdMnumucicFclNMYyxXN5Zkag8XqrY9lXKnDnOIw67qwaoDKoHK38QZ-nn5oJBWk--bVXf32gkhed8jPWnyHFvD74yn-_x2dwCjkEDWXp00_JWXpeNM9gj_w7JrZnJlnefc6xVIlUOTzMWt9H9SQ45f7Gkmo9tWMxpIpBZhegNGyH2nnIXagn8ZXtOdIrNbbniY8AwPo_CX3TvnFRaWL-25UNAixFNf9oDRy-wHkbdpVIOhLUMpC7MGc6XEUcFiiUhdP92lWPq5wFPZ4xtprfKgpihUtBBkkGOJ_OBmwz3e9i6pPzUdfr8_hy4xpVa0ELkuU-U1FiOrvtzZNmUE0cwTatSMizk6vqZ0oZVlq-DkehATpfxfXdRnbQwQTXrdl0s7NpnZSx5d0eZAGuwIA3jSOZD1-CO5-xFo-r-TraKT-rRjF6GJwwFNxCCtDTU1_Fc29MFkzs4P78gc82unhLYcyzVTBK003KZRb7TCIP2-mHxP6ELLdwdxUETKGfNo8k7WouxjojLWCntSx5Ay79RlHJuAqkvp4lTKKc5gZg0JJRgyFhNCzn0-Bb6ryPjsWwOP8cRHtN2cjJOIUMkTsuuSg_vEzLwIe_GAsF-X6rIHDsepC3WWDgty-NV6dOfQCbQsobFJ5RWRNVyESnN4ufiq2hjccontvbSgVy8ZuHznJpihFZe2F7N_fElXxjusUagosuxXpv6UGSs3E6dFHWDq-4swHIlTVB19PfgAEDXLtMNTAHHFfD6zxKY9M8wCh6bjUsaxuDtvxnUtlugYB86ACpzSb6LLuaAZZf6FFk9ZB_4hEUfrn09B3p-31mLQr8YUS4vhavQcsudZFg=w1709-h961-no?authuser=3);
     background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     background-position: top;
     text-align: right;
     color: white;
@@ -32,7 +30,7 @@
 .button-cta {
 
     background-color: white;
-    color: var(--verde-secundario);
+    color: rgb(18, 164, 163);
     font-family: 'roboto';
     font-weight: 900;
     font-size: 1.5rem;

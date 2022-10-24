@@ -37,40 +37,16 @@
 
     #myHeader {
     justify-content: center;
-        align-items: center;
+    align-items: center;
     }
 
-    .button-header {
-        display: none;
-        
-    }
-    .sticky > .logo {
-        transform: scale(0.6);
-    }
-    .sticky {
-
-        height: 15%;
-    }
-    
 }
 
 @media(min-width:481px) and (max-width:768px){
 
     #myHeader {
     justify-content: center;
-        align-items: center;
+    align-items: center;
     }
 
-    .button-header {
-        display: none;
-        
-    }
-    .sticky > .logo {
-        transform: scale(0.8);
-    }
-    .sticky {
-
-        height: 15%;
-    }
-    
 }

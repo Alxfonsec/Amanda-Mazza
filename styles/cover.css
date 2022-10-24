@@ -28,7 +28,7 @@
 }
 
 #cover >h1 > strong {
-    color: gold;
+    color: rgb(18, 164, 163);
 }
 
 #cover > p {
@@ -42,7 +42,7 @@
 
     position: absolute;
     background-color: white;
-    color: var(--verde-secundario);
+    color: rgb(18, 164, 163);
     font-family: 'roboto';
     font-weight: 600;
     text-transform: uppercase;
@@ -62,32 +62,30 @@
     
 
     #cover {
-        row-gap: 1.5rem;
-        background-image: url(../img/Prancheta1-mobile@0\,75x.jpg);
+        display: flex;
+        justify-content: center;
+        background-image: url(https://lh3.googleusercontent.com/gT89PyDtMEZvNzVBSYGE-RA9LapNeWsM9KhRSsnaymUibGLg67ILUFdxCy4V3nhYb_7qDo9typNhdVjAcHYroMR9LLd69G0jY32UwP10ifFQ1Hy910zBamN83oygkZ0YYJMsWGBXovNpw37fGM7_Bpy9TdksJlpA8bNtvtcDTlVZKHrQFSXTijzkmkrWJj1sNtntWtITUQn2urwVOE1lnSma_obrV-8RjBpHZK40RJm_TG6wJ-s_tyeA2M4-FnvyG9JF00VzMkfR1_GTc_gS9R1BJghEk7wZGH_VmNB1yCgzES-AoPvTSA-ijwc5p7w_yZNcVgdERhON_wkyeHkmS-Ow3tYV1h_46OmBGTItOFxOfma2A6WqpISJeaIPYOYEqtMGfiUCLlea5I7qUncvvWVfpWFb1j_s1L4_aKBCLuiSFeZIbExveU38Qyke-hHXbbg01_spPq2w5MXpFg8nOTIwyj_4nsDp-ce6JV10cST80p0xPsGCmNPKLcOVwp4q8EyHyygVRslroL2AeaqpDsxfSrVElwmAOKmSF_hPrjJttqBsNBdxQw-vlRbRTyzhvEA1xQeqN9FU8plDymE7qQA9Set9ihjARz9ZxvwvzEuIFNw6ykT3L2_IaBcnHX0ip18IQLS-rJVFrZuLrVaGYRuQfxS5-PyE_IJf8vl1mMU0jMTKS76O12FadhxkneiQldbfoM_1sqspPlnBxdlrnHgKGavegsWUiB3D-nKgPwFGgo6a51iCG23aWrthT1kPRZkO6IpvB087cc3yRizKVSkpZPpo4evoU39LZVJDq3dbJnPfezhFrFpIvTShwiJIsJQ5DtW85dg6RFEAzjl7OpPb44MvihG_Rd4OMFLuttjv-jSZJXupi2igI2c5QTPPW_Mz02xyCDnrNeZNvQ3ETU3_ZD8nSHxfj9ZFr_gqoUqrgCEr9aHNgnAR2fRTgOsfZERAFtlGrKstkZ7DpiHBz1fPvQfkEczZHjybmkbc19A5UR0HFQOduUnOpI9PFvqxRnPlWyWGqoaN1_5Kucvmy6S0B3M=w480-h720-no?authuser=3);
+        background-size: cover;
     }
 
     #cover h1 {
-        font-size: 1rem;
-        max-width: 90%;
-    }
-
-    iframe {
-        height: 169px;
-        width: 300px;
+        font-size: 2rem;
+        
     }
 
     .button-cover {
         font-size: 1rem;
         min-width: 0px;
+        max-width: 80vw;
         padding: 0.7rem;
-    }
+        
+
     
 }
 
 @media(min-width:481px) and (max-width:768px){
 
     #cover {
-        background-image: url(../img/Prancheta1-mobile@0\,75x.jpg);
         row-gap: 1.5rem;
     }
 
@@ -96,10 +94,7 @@
         max-width: 90%;
     }
 
-    iframe {
-        height: 253px;
-        width: 450px;
-    }
+
 
     .button-cover {
         font-size: 1rem;
@@ -111,19 +106,10 @@
 
 @media(min-width:769px) and (max-width:1024px){
 
-    #cover {
-        background-image: url(../img/Prancheta1-mobile@0\,75x.jpg);
-        row-gap: 2rem;
-    }
 
     #cover h1 {
         font-size: 1.5rem;
         max-width: 90%;
-    }
-
-    iframe {
-        height: 405px;
-        width: 720px;
     }
 
     .button-cover {
@@ -146,11 +132,5 @@
         max-width: 90%;
     }
 
-
-    .button-cover {
-        font-size: 2rem;
-        min-width: 600px;
-        padding: 1rem;
-    }
-    
+}
 }
