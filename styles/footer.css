@@ -4,11 +4,15 @@
     color: white;
     text-align: center;
     font-family: 'Montserrat';
+    margin: 0;
 }
 
 #footer a {
     font-weight: bolder;
+    
 }
+
+
 
 @media(min-width:320px) and (max-width:480px){
 

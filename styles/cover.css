@@ -1,33 +1,30 @@
-/*MAIN*/
-
-section {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
-}
 
 /*MAIN COVER*/
 
 
 
 #cover {   
-    background-image: url(../img/Prancheta\ 1.jpg);
+    background-image: url(https://lh3.googleusercontent.com/pw/AL9nZEXU84tyrOwthkEF1-aFGSeqOS5e8w8tQU9k8ZiWn6CmNY5SEG257m6EmgnrAPmf8FH-NkGoJUKDz_aV1wrQ99RpMBvst6_Y0S329u62h9sSthOKwsaKZt1ITjU3gsgiVN6fbRbv_2avp6bWfWN0bXw=w1709-h961-no?authuser=0);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 3rem;
     color: white;
-    
+    height: 100vh;
+    position: relative;
 }
 
 #cover > h1 {
-    margin-top: 12rem;
-    max-width: 90%;
+    margin-top: 5rem;
+    width: 50vw;
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
+    justify-self: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 #cover > p {
@@ -37,14 +34,9 @@ section {
     
 }
 
-#cover > iframe {
-    border-radius: 10px;
-}
-
-
-
 .button-cover {
 
+    position: absolute;
     background-color: white;
     color: var(--verde-secundario);
     font-family: 'roboto';
@@ -52,11 +44,14 @@ section {
     text-transform: uppercase;
     font-size: 2rem;
     min-width: 500px;
+    max-width: 80vw;
     padding: 1% 12%;
     border-radius: 10px;
-    margin-bottom: 2rem;
     animation: button-animate 1.5s linear infinite;
     text-align: center;
+    align-self: center;
+    justify-self: flex-end;
+    bottom: 5%;
     
 }
 

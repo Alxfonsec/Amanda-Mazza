@@ -4,17 +4,19 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: top;
-    padding: 3rem;
     text-align: right;
     color: white;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     row-gap: 3rem;
+    padding: 3rem;
+    position: relative;
 }
 
 #cta h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 8vw;
     font-weight: 100;
     font-size: 3rem;
     max-width: 50%;
@@ -24,6 +26,7 @@
     max-width: 60%;
     font-family: 'Montserrat';
     font-size: 1.5rem;
+
 }
 
 .button-cta {
@@ -37,12 +40,23 @@
     padding: 1rem 2rem;
     border-radius: 10px; 
     transition: .5s;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.185);   
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.185);  
 }
 
 .button-cta:hover {
     transform: scale(1.1);
 }
+
+
+.bg-svg1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: rgb(255, 255, 255);
+
+}
+    
 
 @media(min-width:320px) and (max-width:480px){
 
@@ -114,6 +128,8 @@
     }
     
 }
+
+
 
 @media(min-width:1025px) and (max-width:1200px){
     #cta {

@@ -38,9 +38,9 @@ img {
 }
 
 :root {
-    --verde-principal: rgb(18, 164, 163);
+    --verde-principal: rgb(204, 240, 0);
     --verde-principal-transparente: rgba(18, 164, 164, 0.137);
-    --verde-secundario: rgb(11, 176, 82);
+    --verde-secundario: rgb(202, 224, 0);
     
 }
 
