@@ -5,56 +5,33 @@
     width: 100%;
     padding: 2rem 7vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
     z-index: 100; 
-    color: white; 
-     
+    color: white;
 }
 
-.button-header {
 
-    background-color: white;
-    color: var(--verde-secundario);
-    font-family: 'roboto';
-    font-weight: 900;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    
-
-    
-}
-
-.button-header:hover {
-
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.171);
-    transform: scale(1.1);
-    transition: 0.5s;
-}
 
 .sticky {
-
     
-    background-color: var(--verde-principal);
-    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.137);
     transform: rotateY(1);
     top: 0;
     box-shadow: 1px 10px 8px rgba(0, 0, 0, 0.089);
     border-radius: 0px 0px 20px 20px;
     transition: .5s;
     height: 20%;
+    justify-content: center;
 }
+
 
 .sticky > .button-header {
     font-size: 1.3rem;
     transition: .5s;
 }
 
-.sticky > .logo {
-    transform: scale(0.8);
-}
+
 
 @media(min-width:320px) and (max-width:480px){
 
