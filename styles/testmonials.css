@@ -3,8 +3,7 @@
     font-weight: 100;
     color: orangered;
     text-align: center;
-    padding: 3rem;  
-  
+    padding: 3rem;   
 }
 
 #testmonials h2 {
@@ -62,6 +61,7 @@
 
     width: 85%;
     height: 300px;
+    margin-bottom: 2rem;
      
 }
 
@@ -96,6 +96,12 @@
     font-size: 1.5rem;
 }
 
+#testmonials .button-cta {
+
+    background-color: rgb(18, 164, 163);
+    color: white;
+
+}
 
 
 

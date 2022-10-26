@@ -43,6 +43,22 @@ img {
 }
 
 .container {
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.button-cta {
+
+    background-color: white;
+    color: rgb(18, 164, 163);
+    font-family: 'roboto';
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    min-width: 500px;
+    max-width: 50vw;
+    padding: 1% 12%;
+    text-align: center;
+    border-radius: 10px;
+        
 }
