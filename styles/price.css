@@ -6,8 +6,31 @@
     align-items: center;
     background-image: url(https://lh3.googleusercontent.com/pw/AL9nZEUcJI6qD6hndhE3mR8ZFaJNp8BRVQWlPZBctgxDuhIyZYRezlt5S7S7wCFo4pn4rivaFMxTEzZjDJZXFqdeojngpQjmXdneNDFltnRqnJuTrGNep8M4VQuhucnD82GVGJHf0WAunq63mF3KKo912hE=w1920-h715-no?authuser=0);
     background-size: cover;
+    background-position: left;
 
 }
+
+
+.price-text {
+    text-align: center;
+    margin: 2rem 5rem;
+
+}
+
+.price-text h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    color: white;
+}
+
+.price-text p {
+    font-family: montserrat;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1.5rem;
+}
+
 
 
 .price-value {
