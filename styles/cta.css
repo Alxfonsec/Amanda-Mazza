@@ -1,14 +1,15 @@
 #video {
-    background-image: linear-gradient(120deg, rgb(18, 164, 163) 20%, rgb(52, 155, 155) 60%);
-    width: 100vw;
+    background-image: url(https://lh3.googleusercontent.com/pw/AL9nZEX9gaFOH0oPS2lGkPP0yFxeDXbR6R0Rg94cL101DGG_Luevec2jyqZF01PlQBd9tHJvTOmjPn3IyBI3XxpnC7805lCIfMD-varL0wNCc7tkEEUIBUmNLWG8aLoeWYGxgSRctPTUDurgLz1PPqTz9PY=w1403-h789-no?authuser=0);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
+    align-items: center;    
+    padding: 3rem;   
 }
 
-.video {
-    padding: 1rem 0rem;
-}
+
 .video iframe {
     border-radius: 20px;
 }
