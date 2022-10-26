@@ -12,27 +12,6 @@
 }
 
 
-
-.sticky {
-    
-    background-color: rgba(0, 0, 0, 0.137);
-    transform: rotateY(1);
-    top: 0;
-    box-shadow: 1px 10px 8px rgba(0, 0, 0, 0.089);
-    border-radius: 0px 0px 20px 20px;
-    transition: .5s;
-    height: 20%;
-    justify-content: center;
-}
-
-
-.sticky > .button-header {
-    font-size: 1.3rem;
-    transition: .5s;
-}
-
-
-
 @media(min-width:320px) and (max-width:480px){
 
     #myHeader {

@@ -13,8 +13,8 @@
 .price-value {
 
 
-    color: rgb(18, 164, 163);
-    border: 10px solid rgb(18, 164, 163);
+    color: rgb(255, 255, 255);
+    border: 10px solid rgb(255, 255, 255);
     border-radius: 50px;
     text-align: center;
     padding: 3rem;
@@ -39,7 +39,7 @@
 }
 
 .price-value p strong {
-    color: rgb(18, 164, 163);
+    color: rgb(255, 255, 255);
     font-size: 9vw;
     font-weight: 100;
     justify-self: center;
