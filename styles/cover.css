@@ -11,13 +11,13 @@
     background-clip: padding-box;
     display: flex;
     color: white;
-    height: 100vh;
+    height: 850px;
     position: relative;
     text-align: center;
 }
 
 #cover  h1 {
-    width: 70vw;
+    max-width: 1000px;
     font-size: 6rem;
     text-align: left;
     font-family: Montserrat;
@@ -33,13 +33,6 @@
     color: rgb(18, 164, 163);
 }
 
-#cover > p {
-    font-family: 'Georgia';
-    font-size: 1.5vw;
-    text-align: center;
-    
-}
-
 .button-cover {
 
     position: absolute;
@@ -51,7 +44,7 @@
     font-size: 1.5rem;
     min-width: 500px;
     max-width: 50vw;
-    padding: 1% 12%;
+    padding: 1rem 10rem;
     animation: button-animate 1.5s linear infinite;
     text-align: center;
     border-radius: 10px;
