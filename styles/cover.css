@@ -19,7 +19,7 @@
 
 #cover  h1 {
     max-width: 1000px;
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: left;
     font-family: Montserrat;
     font-weight: 400;
@@ -76,8 +76,6 @@
         max-width: 80vw;
         padding: 0.7rem;
         
-
-    
 }
 }
 
@@ -85,12 +83,11 @@
 
     #cover {
         row-gap: 1.5rem;
-        background-image: url(https://lh3.googleusercontent.com/pw/AL9nZEUhTPNNoEeWIUD1BZfjy1JrxOJGrwpZLamYnu96pUIHfu6EWiLgxF33yWfaOawvRhMeqT0y1MY4x-KFsy4fDKwmWBXaP_O3rt3SDBJpIVVVIez_8aH2Ysy2R69-GzEYnakPjbFTADi90_t4a9uf-wUX=w480-h720-no?authuser=0);
         background-size: cover;
     }
 
     #cover  h1 {
-        font-size: 3rem;
+        font-size: 2.3rem;
         max-width: 90%;
     }
 

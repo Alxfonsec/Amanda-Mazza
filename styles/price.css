@@ -3,10 +3,34 @@
     background-image: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     background-image: url(https://lh3.googleusercontent.com/pw/AL9nZEUcJI6qD6hndhE3mR8ZFaJNp8BRVQWlPZBctgxDuhIyZYRezlt5S7S7wCFo4pn4rivaFMxTEzZjDJZXFqdeojngpQjmXdneNDFltnRqnJuTrGNep8M4VQuhucnD82GVGJHf0WAunq63mF3KKo912hE=w1920-h715-no?authuser=0);
     background-size: cover;
     background-position: left;
+    text-align: right;
+
+}
+
+#price h2 {
+    color: white;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    padding: 1rem;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.315);
+
+
+}
+
+#price > p{
+    color: white;
+    font-size: 2rem;
+    font-family: montserrat;
+    max-width: 1000px;
+    padding: 1rem;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.315);
+
+    
 
 }
 
@@ -22,6 +46,7 @@
     font-weight: 100;
     font-size: 3rem;
     color: white;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.315);
 }
 
 .price-text p {
@@ -29,6 +54,7 @@
     font-size: 1.5rem;
     color: white;
     padding: 1.5rem;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.315);
 }
 
 
@@ -93,8 +119,16 @@
 @media(min-width:320px) and (max-width:480px){
 
     #price {
-        padding: 1.5rem;
-        background-image: url(https://lh3.googleusercontent.com/jjm8RY8uDos7oHwPVMR8sdotn9fJVlAsK_Dnr4vi-hr3iU5TKNZx-zJXAZppaknxRI4Y0JR-qJiDkpz3O9CWdNlUsWuKg_uU3AoqRMveBfzWu9a5jtlq-t7S5OONmlaY3Yq1gVU28j_yD7HEz9AAxiCNVWufIgSO426DvRFKc0nsUZJHJjrup0TOqLJq_XHxCyRvU2SK1YDTKiYS8fU5Mffds0gGmWjnmyt7FVohsU5p_0OZG_SAAH8UcITvmgku7IdP7beIbe7uGXMYUhUTz6qXNLWSgsZrzHSjM8PJKALQOsgT7DJNK5DGrmGnvXEvBDsyIAJs8fOzB5l7W1OEOnt9sbg056nbQ7S8RV4DCsoBe9PJFL9Kgv2LxfR5Uj0nm-PRXoqgmEXiQWBNCpHdNV-2UDag7NjOVcXdg7sioTcCPqAckFEowOPb3YUdXwe2JnLNSEMstxMA-E8h30tWK-zZFsbz0vuR3up01kdjq36ebhZpeP9HOTNxBgdbtjD7_zvHD53P-_tQ_SThSaMF9JTyS29AxdKMVj67NMbLUhiuxWjiqibSH2ialPE6CHKPLeEx0oMgKdCzpLizNrcX_ZMzYQbS4ZZorv3oQ7VkjtCmdy8JrgWjzN2RtX3B04uSs85IcKp-tL2lN2XGN7qJnqnWSlR_LaTmh9N_VV9Oeq8pJjTqXZ9kOseFQQ325IGhB4poJO08WxSTMzZigzWn2HhxPuAPpHf4PcSCiTLQZHENCpAlkUBXpv2kNK16y56OV5aUHRqPOWcSt9W5Nz__3MCLneugRO7Qu-knDA6wTxV34U_UhAB58LDwl4kZe6QBhsajDlN49ItlwIzbZaSFn9O6mbIpvYu_OVb_8hW3RoYPJuWv6gBek_pLTtd8Prp3Qnj0WPxejHgnQKE1AOQXhExQY4I3jSj5KpWbR8_mJJFALo84UbpBM1Bi_lLR62X1eJ6O6KDwgbgAUMwLkI5Gx6KR2NAUvACUCXmSFDCpdYoLH1daS3Txame0wZEHUC_SSYVegu_nMCMOZXqzLx6F1XQneLg=w479-h179-no?authuser=3);
+        padding: 1.5rem;   
+        text-align: left; 
+        align-items: center;    
+    }
+
+    #price h2 {
+        font-size: 1.8rem;
+    }
+    #price p {
+        font-size: 1rem;
     }
 
     .price-img1 {
@@ -142,26 +176,30 @@
         padding: 0.5rem;
         margin-bottom: 1rem;
     }
-
-
-    
-}
-
-@media(min-width:320px) and (max-width:480px){
-
     #price{
         background-image: linear-gradient(90deg, rgb(18, 164, 163), rgb(18, 164, 163));
     }
+
     
 }
-
 
 
 @media(min-width:481px) and (max-width:768px){
 
     #price {
         padding: 1.5rem;
+        text-align: left;
+        align-items: center;
     }
+
+    #price h2 {
+        font-size: 2rem;
+    }
+    #price p {
+        font-size: 1.2rem;
+        
+    }
+
 
     .price-img1 {
         display: none;
@@ -204,9 +242,14 @@
     }
     #price .button-cta {
         min-width: 80vw;
+        max-width: 300px;
         font-size: 1rem;
         padding: 0.5rem;
         margin-bottom: 1rem;
+    }
+
+    #price{
+        background-image: linear-gradient(90deg, rgb(18, 164, 163), rgb(18, 164, 163));
     }
 }
 
@@ -216,6 +259,15 @@
         padding: 1.5rem;
     }
 
+    #price h2 {
+        font-size: 2rem;
+    }
+    #price p {
+        font-size: 1.5rem;
+        max-width: 500px;
+    }
+
+
 
     .price-value {
         justify-self: flex-end;
@@ -223,17 +275,25 @@
         border: 10px solid;        
      }
 
-     #price .button-cta {
-        min-width: 80vw;
-        font-size: 1rem;
+     #questions .button-cta {
+
+        font-size: 1.5rem;
         padding: 0.5rem;
         margin-bottom: 1rem;
     }
-    
 
 }
 
 @media(min-width:1025px) and (max-width:1200px){
+
+    #price h2 {
+        font-size: 2rem;
+    }
+    #price p {
+        font-size: 2rem;
+        max-width: 700px;
+    }
+
 
     
 }
