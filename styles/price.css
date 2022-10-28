@@ -147,6 +147,16 @@
     
 }
 
+@media(min-width:320px) and (max-width:480px){
+
+    #price{
+        background-image: linear-gradient(90deg, rgb(18, 164, 163), rgb(18, 164, 163));
+    }
+    
+}
+
+
+
 @media(min-width:481px) and (max-width:768px){
 
     #price {

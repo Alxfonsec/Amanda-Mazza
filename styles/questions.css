@@ -51,6 +51,14 @@ details[open] summary::after {
     text-align: justify;
 }
 
+#questions .button-cta {
+
+    background-color: rgb(18, 164, 163);
+    color: white; 
+    width: 800px; 
+
+}
+
 
 @media(min-width:320px) and (max-width:480px){
 
@@ -95,12 +103,12 @@ details[open] summary::after {
     #questions .button-cta {
         min-width: 80vw;
         font-size: 1rem;
-        padding: 0.5rem;
+
         margin-bottom: 1rem;
     }
 
 
-}
+
 
 @media(min-width:481px) and (max-width:768px){
 
@@ -141,8 +149,7 @@ details[open] summary::after {
     }
     
     #questions .button-cta {
-        min-width: 80vw;
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding: 0.5rem;
         margin-bottom: 2rem;
     }
@@ -188,8 +195,8 @@ details[open] summary::after {
     }
     
     #questions .button-cta {
-        min-width: 80vw;
-        font-size: 1rem;
+
+        font-size: 1.5rem;
         padding: 0.5rem;
         margin-bottom: 1rem;
     }
@@ -236,6 +243,4 @@ details[open] summary::after {
     }
 
 }
-
-
-    
+}

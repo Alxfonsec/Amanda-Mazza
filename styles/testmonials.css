@@ -1,7 +1,7 @@
 #testmonials {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
-    color: orangered;
+    color: rgb(18, 164, 163);
     text-align: center;
     padding: 3rem;
     background-color: white;   
@@ -42,7 +42,7 @@
 .testmonial-first h3{
 
     font-size: 2rem;
-    color: orangered;
+    color: rgb(18, 164, 163);
     margin-bottom: 1vw;
 }
 
@@ -55,7 +55,7 @@
 
 .testmonial-first h4 {
     text-align: right;
-    color: orangered;
+    color: rgb(18, 164, 163);
 }
 
 #testmonials .swiper {
@@ -78,7 +78,7 @@
 #testmonials .swiper-slide img {
 
     border-radius: 20px; 
-    max-width: px;
+    max-width: 850px;
 }
 
 #testmonials .slider-text{
@@ -100,11 +100,9 @@
 #testmonials .button-cta {
 
     background-color: rgb(18, 164, 163);
-    color: white;
+    color: white;  
 
 }
-
-
 
 
 @media(min-width:320px) and (max-width:480px){
@@ -145,6 +143,13 @@
     #testmonials .swiper-slide img{
         height: 250px;
 
+
+    }
+    #testmonials .button-cta {
+
+        width: 80vw;
+        font-size: 1rem;       
+    
     }
        
     

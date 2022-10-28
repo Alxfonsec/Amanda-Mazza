@@ -43,6 +43,12 @@
     align-self: center;
 }
 
+#video .button-cta {
+    min-width: 80vw;
+    font-size: 1rem;
+
+    margin-bottom: 1rem;
+}
 @media(min-width:320px) and (max-width:480px){
 
     #video {
@@ -72,9 +78,7 @@
     }
 
     #video .button-cta {
-        min-width: 80vw;
         font-size: 1rem;
-        padding: 0.5rem;
         margin-bottom: 1rem;
     }
     
@@ -143,7 +147,6 @@
     }
 
     #video .button-cta {
-        min-width: 80vw;
         font-size: 1rem;
         padding: 0.5rem;
         margin-bottom: 1rem;
@@ -180,10 +183,10 @@
     }
 
     #video .button-cta {
-        min-width: 80vw;
-        font-size: 1rem;
-        padding: 0.5rem;
+        font-size: 1.3rem;
+        max-width: 80vw;
         margin-bottom: 1rem;
+
     }
     
 }

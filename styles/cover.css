@@ -11,7 +11,8 @@
     background-clip: padding-box;
     display: flex;
     color: white;
-    height: 850px;
+    height: 100vh;
+    max-height: 850px;
     position: relative;
     text-align: center;
 }
@@ -61,11 +62,12 @@
         justify-content: center;
         background-image: url(https://lh3.googleusercontent.com/pw/AL9nZEUhTPNNoEeWIUD1BZfjy1JrxOJGrwpZLamYnu96pUIHfu6EWiLgxF33yWfaOawvRhMeqT0y1MY4x-KFsy4fDKwmWBXaP_O3rt3SDBJpIVVVIez_8aH2Ysy2R69-GzEYnakPjbFTADi90_t4a9uf-wUX=w480-h720-no?authuser=0);
         background-size: cover;
+        padding-left: .5rem;
     }
 
     #cover > h1 {
         font-size: 2rem;
-        
+        max-width: 80vw;
     }
 
     .button-cover {
